@@ -12,9 +12,96 @@
         <p>Questionário online com perguntas de programação</p>
         <form action="">
             <label for="nome">Nome:</label>
-            <input class="nome" type="text" id="nome" name="nome" required>
+            <input class="input-text" type="text" id="nome" name="nome" required>
             <input class="btn" type="submit" value="Enviar">
         </form>
     </header>
+    <hr />
+    <main>
+        <!-- Pergunta 1 -->
+        <section>
+            <p>1) Como se define um estilo inline em HTML?</p>
+            <input class="input-text" type="text" id="estiloInline" name="estiloInline">
+        </section>
+    
+        <!-- Pergunta 2 -->
+        <section>
+            <p>2) Qual é a tag usada para criar uma lista ordenada em HTML?</p>
+            <input type="radio" id="ol" name="listaOrdenada" value="ol">
+            <label for="ol">ol</label><br>
+            <input type="radio" id="ul" name="listaOrdenada" value="ul">
+            <label for="ul">ul</label><br>
+            <input type="radio" id="li" name="listaOrdenada" value="li">
+            <label for="li">li</label><br>
+            <input type="radio" id="order-list" name="listaOrdenada" value="order-list">
+            <label for="order-list">order-list</label>
+        </section>
+    
+        <!-- Pergunta 3 -->
+        <section>
+            <p>3) Qual propriedade CSS é usada para alterar a cor do texto?</p>
+            <input type="radio" id="font-color" name="corTexto" value="font-color">
+            <label for="font-color">font-color</label><br>
+            <input type="radio" id="color" name="corTexto" value="color">
+            <label for="color">color</label><br>
+            <input type="radio" id="background-color" name="corTexto" value="background-color">
+            <label for="background-color">background-color</label><br>
+            <input type="radio" id="text-color" name="corTexto" value="text-color">
+            <label for="text-color">text-color</label>
+        </section>
+    
+        <!-- Pergunta 4 -->
+        <section>
+            <p>4) Como se referencia um arquivo CSS externo em um documento HTML?</p>
+            <input class="input-text" type="text" id="referenciaCSS" name="referenciaCSS">
+        </section>
+    
+        <!-- Pergunta 5 -->
+        <section>
+            <p>5) Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?</p>
+            <input type="radio" id="sim" name="fontSize" value="sim">
+            <label for="sim">Sim</label><br>
+            <input type="radio" id="nao" name="fontSize" value="nao">
+            <label for="nao">Não</label>
+        </section>
+    
+        <!-- Pergunta 6 -->
+        <section>
+            <p>6) Qual é a propriedade CSS usada para definir a largura de um elemento?</p>
+            <input type="checkbox" id="height" name="larguraElemento" value="height">
+            <label for="height">height</label><br>
+            <input type="checkbox" id="size" name="larguraElemento" value="size">
+            <label for="size">size</label><br>
+            <input type="checkbox" id="width" name="larguraElemento" value="width">
+            <label for="width">width</label><br>
+            <input type="checkbox" id="max-width" name="larguraElemento" value="max-width">
+            <label for="max-width">max-width</label>
+        </section>
+    
+        <!-- Pergunta 7 -->
+        <section>
+            <p>7) Como se cria um comentário em CSS?</p>
+            <input type="checkbox" id="comentario-html" name="comentarioCSS" value="&lt;!-- --&gt;">
+            <label for="comentario-html">&lt;!-- --&gt;</label><br>
+            <input type="checkbox" id="comentario-js" name="comentarioCSS" value="//">
+            <label for="comentario-js">//</label><br>
+            <input type="checkbox" id="comentario-css" name="comentarioCSS" value="/* */">
+            <label for="comentario-css">/* */</label>
+        </section>
+    
+        <!-- Pergunta 8 -->
+        <section>
+            <p>8) Qual é a propriedade CSS usada para definir a altura de um elemento?</p>
+            <input type="checkbox" id="altura" name="alturaElemento" value="height">
+            <label for="altura">height</label><br>
+            <input type="checkbox" id="tamanho" name="alturaElemento" value="size">
+            <label for="tamanho">size</label><br>
+            <input type="checkbox" id="min-height" name="alturaElemento" value="min-height">
+            <label for="min-height">min-height</label><br>
+            <input type="checkbox" id="max-height" name="alturaElemento" value="max-height">
+            <label for="max-height">max-height</label>
+        </section>
+    </main>
+    
 </body>
 </html>

@@ -11,7 +11,7 @@ header{
     text-align: center;
     font-family: 'Arial', sans-serif;   
     margin: auto;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 h1{
@@ -27,14 +27,14 @@ form{
     margin-top: 30px;
 }
 
-.nome {
+.input-text {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.nome:focus {
+.input-text:focus {
     outline: 2px solid #00ff00; /* Cor da borda verde quando focado */
 }
 
@@ -55,4 +55,18 @@ input{
 }
 .btn:hover {
     background-color: rgb(69, 90, 75);
-  }
+}
+
+hr {
+    margin-top: 30px;
+    border: none; 
+    height: 1px; 
+    background-color: #ffffff7c; 
+}
+
+section{
+    color: #ffffff;
+    margin: auto;
+    max-width: 400px;
+    margin-bottom: 60px;
+}

@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(83, 106, 89);
+}
+
+body{
+    background-color: rgb(24, 33, 59);
 }
 
 header{
-    max-width: 400px;
+    max-width: 500px;
     color: #ffffff;
     text-align: center;
     font-family: 'Arial', sans-serif;   
@@ -33,7 +36,13 @@ form{
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    color: white;
 }
+
+.input-text::placeholder {
+    color: #999999; /* Cor cinza para o texto do placeholder */
+}
+
 .input-text:focus {
     outline: 2px solid #00ff00; /* Cor da borda verde quando focado */
 }
@@ -52,9 +61,10 @@ input{
     border: 2px solid #000000a5;
     border-radius: 20px;
     box-sizing: border-box;
+    background-color: rgb(24, 33, 59);
 }
 .btn:hover {
-    background-color: rgb(69, 90, 75);
+    background-color: rgb(10, 15, 31);
 }
 
 hr {
@@ -67,6 +77,26 @@ hr {
 section{
     color: #ffffff;
     margin: auto;
-    max-width: 400px;
+    max-width: 500px;
     margin-bottom: 60px;
+}
+
+footer {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    background-color: rgba(0, 0, 0, 0.491);
+    height: 100px;
+}
+
+h2 {
+    max-width: 600px;
+    margin: 0; /* Remove a margem para permitir o alinhamento do flexbox */
+    text-align: center;
+    font-size: 12px;
+    color: #ffffffbe;
+}
+
+a{
+    color: #00ff00;
 }
